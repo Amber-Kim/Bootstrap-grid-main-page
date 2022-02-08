@@ -1,0 +1,168 @@
+/* Google Web Font */
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+body {
+  color: #fff;
+  background-color: #0A1817;
+  font-family: 'Raleway', sans-serif;
+}
+
+.main-video {
+  background-image: url("images/world.gif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.img-circle {
+  float: right;
+  width: 100px;
+  height: 100px;
+}
+.outtable {
+  border: none;
+  text-align: center;
+  background-color: #0A1817;
+}
+
+
+.row {
+  text-align: center;
+  justify-items: center;
+  margin-bottom: 20px;
+}
+
+.outtable h1 {
+  font-size: 50px;
+  color: #FF0080;
+  animation: neon2 3s infinite;
+  font-weight: 300;
+}
+
+h1>span:nth-child(1) {
+  opacity: .5;
+  font-weight: 800;
+  animation: neon2 3s infinite;
+}
+
+h1>span:nth-child(2) {
+  animation: neon 3s infinite;
+}
+
+h1>span:nth-child(3) {
+  opacity: .4;
+  animation: neon2 2s infinite;
+}
+
+h1>span:nth-child(4) {
+  animation: neon 4s infinite;
+}
+
+@keyframes neon {
+  0% {
+    opacity: 1;
+  }
+
+  10% {
+    opacity: .6;
+  }
+
+  12% {
+    opacity: 1;
+  }
+
+  15% {
+    opacity: .4;
+  }
+
+  17% {
+    opacity: 1;
+  }
+
+  18% {
+    opacity: .3;
+  }
+
+  20% {
+    opacity: 1;
+  }
+
+  80% {
+    opacity: 1;
+  }
+
+  84% {
+    opacity: .7;
+  }
+
+  89% {
+    opacity: 1;
+  }
+
+  92% {
+    opacity: .2;
+  }
+}
+
+@keyframes neon2 {
+  0% {
+    text-shadow: 0px 0px 25px #FF0080;
+  }
+
+  50% {
+    text-shadow: 0px 0px 75px #FF0080;
+    filter: blur(1px)
+  }
+
+  100% {
+    text-shadow: 0px 0px 25px #FF0080;
+  }
+}
+
+/* .row {
+  text-align: center;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-areas:
+    'box-a box-b box-c box-d'
+}
+
+.col-md-3 {
+  display: grid;
+}
+
+
+.box-a {
+  grid-area: box-a;
+}
+
+.box-b {
+  grid-area: box-b;
+}
+
+.box-c {
+  grid-area: box-c;
+}
+
+.box-d {
+  grid-area: box-d;
+}
+
+@media (max-width: 720px) {
+  .row {
+    grid-template-areas:
+      'box-a box-b'
+      'box-c box-d';
+  }
+}
+
+@media (max-width: 500px) {
+  .row {
+    grid-template-areas:
+      'box-a'
+      'box-b'
+      'box-c'
+      'box-d';
+  }
+
+} */
